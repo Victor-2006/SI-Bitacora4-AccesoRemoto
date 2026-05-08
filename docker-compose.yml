@@ -1,0 +1,33 @@
+# Laboratorio Bitacora 4
+# Este archivo levanta dos servicios: un servidor SSH y un entorno gráfico vía RDP/Web
+version: '3.8'
+
+services:
+  # Servidor especializado para prácticas de SSH y seguridad
+  servidor_ssh:
+    image: linuxserver/openssh-server:latest
+    container_name: lab_ssh_servidor
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Madrid
+      - USER_NAME=alumno
+      - USER_PASSWORD=sistemas_informaticos
+      - PASSWORD_ACCESS=true
+    ports:
+      - "2222:2222" # Mapeamos el puerto 2222 al 2222 del contenedor
+    restart: unless-stopped
+
+  # Servidor con entorno gráfico que se puede acceder por web y RDP
+  servidor_rdp:
+    image: linuxserver/webtop:ubuntu-xfceç
+    container_name: lab_rdp_servidor
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Madrid
+    ports:
+      - "3389:3389" # Puerto estándar para acceder por RDP
+      - "3000:3000" # Puerto para acceder por guacamole
+    shm_size: "1gb" # Importante para evitar que vaya lento el entorno gráfico
+    restart: unless-stopped
