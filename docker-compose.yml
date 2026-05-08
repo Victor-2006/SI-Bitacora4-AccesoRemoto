@@ -1,9 +1,7 @@
 # Laboratorio Bitacora 4
-# Este archivo levanta dos servicios: un servidor SSH y un entorno gráfico vía RDP/Web
 version: '3.8'
 
 services:
-  # Servidor especializado para prácticas de SSH y seguridad
   servidor_ssh:
     image: linuxserver/openssh-server:latest
     container_name: lab_ssh_servidor
