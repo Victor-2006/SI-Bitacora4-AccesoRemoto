@@ -4,3 +4,7 @@
 
 ## 3. Fase de Ejecución: Tareas Evaluables
 # 3.1. SSH: Forjando la Llave Maestra
+# Paso A (Conexión Inicial)
+<img width="613" height="162" alt="image" src="https://github.com/user-attachments/assets/bdf173de-2afa-43f4-90ba-2099e3a4599b" />
+# Paso B (Generación de Identidad)
+<img width="458" height="87" alt="image" src="https://github.com/user-attachments/assets/7f23f6a8-6865-43a8-bcd2-9b2dc7f4e110" />
