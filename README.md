@@ -31,6 +31,9 @@
 ## PD ESTE ERROR TAMBIEN ME SALE AL INTENTAR CONECTARME AL 3000
 <img width="560" height="279" alt="image" src="https://github.com/user-attachments/assets/9dd3f1ea-d2a7-438b-9004-2e6a54d2594f" />
 
+## PORQUE CREES QUE SSH ES EL MAS UTILIZADO
+Pienso que es el mas utilizado debido a su sistema de seguridad y porque sirve para proteger contraseñas, datos etc...
+
 
 
 
