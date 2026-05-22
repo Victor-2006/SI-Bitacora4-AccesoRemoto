@@ -29,7 +29,10 @@ git commit -m "feat: Sprint 1 completado - UD07"
 git push origin main  
 
 
-## 2. Estimación de Costes de Infraestructura
+# 2. Estimación de Costes de Infraestructura
 Esta seria la tabla de TCO
 
 <img width="780" height="185" alt="image" src="https://github.com/user-attachments/assets/29ba5d5b-f8ad-48bb-b24a-f542052a926c" />
+
+# 3. Estrategia de Despliegue y Comunicación
+
