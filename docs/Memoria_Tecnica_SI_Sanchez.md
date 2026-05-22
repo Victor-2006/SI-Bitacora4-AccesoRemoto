@@ -39,4 +39,10 @@ El proyecto utiliza Docker Compose para gestionar y desplegar los servicios nece
 
 Para la comunicación entre los miembros del equipo se utilizará Discord o Microsoft Teams. Estas herramientas permitirán compartir incidencias técnicas, coordinar tareas y recibir alertas automáticas en caso de fallos o caídas del servidor.
 
+# 4. Justificacion cientifica
 
+Los contenedores se han convertido es una estrategia ideal para acelerar el proceso de desarrollo de plataformas. Su importancia radica en la capacidad que tienen de separar una aplicación e interactuar con sus partes sin que la totalidad de la aplicación tenga que ser afectada. Los contenedores pueden compartir procesos entre varias aplicaciones, de manera muy similar al esquema propuesto por la arquitectura orientada a servicios. El objetivo de esta investigación fue definir una arquitectura para el despliegue automático de contenedores en contextos académicos; la verificación y validación de la arquitectura se realizó mediante la construcción de una plataforma que adapta los conceptos de la arquitectura y permite visualizar nivel a nivel cada uno de sus componentes. Se realizó un análisis bibliográfico sobre las arquitecturas propuestas para la gestión de contenedores, con lo cual se evidenciaron fortalezas y debilidades. El resultado directo de esta investigación fue la propuesta arquitectónica para el despliegue de contenedores como una extensión de Docker. El resultado indirecto fue la plataforma web con miras a la verificación y la validación de la arquitectura.
+
+[1] J. Cito, G. Schermann, J. E. Wittern, P. Leitner, S. Zumberi y H. C. Gall, “An empirical analysis of
+the Docker container ecosystem on gitHub,” in 2017 IEEE/ACM 14th International Conference on
+Mining Software Repositories (MSR), 2017, pp. 323-333.
