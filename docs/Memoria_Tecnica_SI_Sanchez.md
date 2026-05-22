@@ -36,3 +36,12 @@ Esta seria la tabla de TCO
 
 # 3. Estrategia de Despliegue y Comunicación
 
+Para el despliegue de la aplicación se utilizará SFTP (SSH File Transfer Protocol) para transferir archivos desde el entorno local al servidor de producción. SFTP funciona sobre SSH, lo que permite cifrar toda la comunicación entre cliente y servidor, evitando que usuarios no autorizados puedan interceptar credenciales o información sensible durante la transferencia.
+
+Se descarta el uso del protocolo FTP tradicional debido a que transmite los datos en texto plano, generando riesgos de seguridad. El uso de SFTP proporciona autenticación segura mediante usuario y contraseña o claves SSH, además de facilitar procesos automatizados de despliegue y mantenimiento.
+
+El proyecto utiliza Docker Compose para gestionar y desplegar los servicios necesarios de forma organizada y reproducible, facilitando la administración de la infraestructura.
+
+Para la comunicación entre los miembros del equipo se utilizará Discord o Microsoft Teams. Estas herramientas permitirán compartir incidencias técnicas, coordinar tareas y recibir alertas automáticas en caso de fallos o caídas del servidor.
+
+
