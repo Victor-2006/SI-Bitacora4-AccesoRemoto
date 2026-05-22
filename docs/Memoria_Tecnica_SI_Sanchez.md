@@ -32,7 +32,7 @@ git push origin main
 # 2. Estimación de Costes de Infraestructura
 Esta seria la tabla de TCO
 
-<img width="780" height="185" alt="image" src="https://github.com/user-attachments/assets/29ba5d5b-f8ad-48bb-b24a-f542052a926c" />
+<img width="985" height="274" alt="image" src="https://github.com/user-attachments/assets/96e07e79-e9e5-4144-a9a9-5a0bf4813f93" />
 
 # 3. Estrategia de Despliegue y Comunicación
 
