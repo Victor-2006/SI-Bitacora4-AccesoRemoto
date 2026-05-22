@@ -1,8 +1,3 @@
-Memoria_Tecnica_SI_Sanchez.md  
- Alumno: VÍCTOR SÁNCHEZ COLORADO  
- Ciclo: DAW  
- Fecha: 15 de mayo de 2026  
-
 # 1. Análisis de Necesidades 
 
 La empresa necesitaba una forma más segura y sencilla de acceder a sus servidores remotos. Antes de esta solución, cada usuario debía conectarse directamente mediante SSH o RDP, lo que obligaba a abrir varios puertos en el firewall y aumentaba los riesgos de seguridad.  
